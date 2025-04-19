@@ -1,14 +1,14 @@
 // ObjetoS - Destructiring de dos o mas objetos
 const producto = {
-  nombre: "Tablet",
+  nombre: 'Tablet',
   precio: 300,
-  disponible: false,
-};
+  disponible: false
+}
 
 const cliente = {
-  nombre: "Juan",
-  premium: true,
-};
+  nombre: 'Juan',
+  premium: true
+}
 
 // const carrito =  {
 //   cantidad: 1,
@@ -17,7 +17,7 @@ const cliente = {
 
 const nuevoObjeto = {
   ...producto,
-  ...cliente,
+  ...cliente
 }
 
 console.log(nuevoObjeto)
