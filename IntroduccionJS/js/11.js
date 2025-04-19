@@ -1,8 +1,9 @@
 const tecnologias = ["HTML", "CSS", "JavaScript", "React.js", "Node.js"];
 
-const react = tecnologias[3];
+const react = tecnologias[3]; // Aui se asignan en base a la posocion.
 
 // Destructuring arrays
-const[html, css, nodejs] = tecnologias
+// A medida que creas la variables se asignan a la posicion del array correspondiente.
+const[ , , , reactjs] = tecnologias
 
-console.log(nodejs)
+console.log(reactjs)
