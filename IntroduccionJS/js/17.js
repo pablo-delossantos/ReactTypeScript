@@ -14,3 +14,12 @@ const numeros = [10, 20, 30]
 // const resultado = numeros.some((numero) => numero > 15)
 
 // Find - Devuelve el primer elemento que cimple una funcion.
+// const resultado = numeros.find((numero) => numero > 20)
+
+// Every - Retorna true o false si todos cumplen la condición
+// const resultado = numeros.every((numero) => numero > 5)
+
+// Reduce - Retorna un acumulado del total
+const resultado = numeros.reduce((total, numero) => total + numero, 0)
+
+console.log(resultado)
