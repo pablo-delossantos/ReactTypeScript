@@ -1,33 +1,31 @@
-import eslintPluginPrettier from 'eslint-plugin-prettier'
-import configPrettier from 'eslint-config-prettier'
+import eslintPluginPrettier from "eslint-plugin-prettier"
+import configPrettier from "eslint-config-prettier"
 
 export default [
   {
-    ignores: ['node_modules', 'dist', 'build'],
+    ignores: ["node_modules", "dist", "build"],
 
     languageOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module'
+      ecmaVersion: "latest",
+      sourceType: "module",
     },
 
     plugins: {
-      prettier: eslintPluginPrettier
+      prettier: eslintPluginPrettier,
     },
 
     rules: {
-      semi: ['error', 'never'],
-      'prettier/prettier': [
-        'error',
+      quotes: ["off"], // ✅ Podés usar comillas simples o dobles
+      semi: ["error", "never"], // ✅ No se permiten ;
+      "prettier/prettier": [
+        "error",
         {
           semi: false,
-          singleQuote: true,
-          trailingComma: 'none'
-        }
-      ]
+          trailingComma: "none", // ✅ No se agregan comas innecesarias
+          endOfLine: "crlf", // ✅ Saltos de línea estilo Windows
+        },
+      ],
     },
-
-    settings: {},
-    linterOptions: {}
   },
-  configPrettier
+  configPrettier,
 ]

@@ -2,7 +2,7 @@
 // Es una colección de propiedades. Una propiedad es una asociacion entre una clave y un valor.
 
 const producto = {
-  nombre: 'Tablet',
+  nombre: "Tablet",
   precio: 300,
   disponible: false
 }
@@ -18,7 +18,7 @@ const producto = {
 
 // Object Literal Enhancement
 const autenticado = true
-const usuario = 'Juan'
+const usuario = "Juan"
 
 const nuevoObjeto = {
   autenticado,

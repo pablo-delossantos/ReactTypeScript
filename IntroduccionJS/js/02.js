@@ -1,4 +1,4 @@
-const cliente = 'Juan'
+const cliente = "Juan"
 cliente = 30
 
 const precio = 1000

@@ -1,4 +1,4 @@
-let cliente = 'Juan'
+let cliente = "Juan"
 cliente = 30
 
 let precio

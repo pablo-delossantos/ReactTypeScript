@@ -1,4 +1,4 @@
-const tecnologias = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
+const tecnologias = ["HTML", "CSS", "JavaScript", "React.js", "Node.js"]
 
 const react = tecnologias[3] // Aui se asignan en base a la posocion.
 
