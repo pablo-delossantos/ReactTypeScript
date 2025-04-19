@@ -1,9 +1,10 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "files.eol": "\r\n",
-  "prettier.trailingComma": "none", // 👈 fuerza "none" desde VS Code
+  "editor.formatOnType": false,
+  "eslint.run": "onSave", // 👈 importante
+  "files.eol": "\r\n", // 👈 uso de CRLF explícito
+  "prettier.endOfLine": "crlf",
+  "prettier.trailingComma": "none",
   "prettier.semi": false,
-  "prettier.singleQuote": false,
-  "prettier.endOfLine": "crlf"
+  "prettier.singleQuote": false
 }
