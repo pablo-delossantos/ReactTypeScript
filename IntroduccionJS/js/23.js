@@ -8,5 +8,5 @@
 //   console.log("Falsy")
 // }
 
-const auth = true;
-auth && console.log("Usuario Autenticado");
+const auth = true
+auth && console.log("Usuario Autenticado")

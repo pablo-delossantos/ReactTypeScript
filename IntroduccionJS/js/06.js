@@ -3,7 +3,7 @@ const producto = {
     nombre: "Tablet",
     precio: 300,
     disponible: false,
-};
+}
 
 const cliente = {
     nombre: "Juan",
@@ -11,15 +11,15 @@ const cliente = {
     direccion: {
         calle: "Calle México",
     },
-};
+}
 
-const { nombre } = producto;
+const { nombre } = producto
 const {
     nombre: nombreCliente,
     direccion: { calle },
-} = cliente;
+} = cliente
 
-console.log(nombre);
-console.log(nombreCliente);
+console.log(nombre)
+console.log(nombreCliente)
 
-console.log(calle);
+console.log(calle)

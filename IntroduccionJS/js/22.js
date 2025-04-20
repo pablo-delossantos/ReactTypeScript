@@ -6,11 +6,11 @@ const alumno = {
     examenes: {
         examen1: 90,
     },
-};
+}
 
-console.log(alumno.examenes?.examen1); // Existe examenes?
-console.log("Despues de alumno");
+console.log(alumno.examenes?.examen1) // Existe examenes?
+console.log("Despues de alumno")
 
 // Nullish coalescing operator (??)
-const pagina = 10 ?? 1;
-console.log(pagina);
+const pagina = 10 ?? 1
+console.log(pagina)

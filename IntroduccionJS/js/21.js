@@ -1,9 +1,9 @@
 // Ternarios
-const auth = true;
+const auth = true
 
-const saldo = 1000;
-const pagar = 1200;
-const tarjeta = true;
+const saldo = 1000
+const pagar = 1200
+const tarjeta = true
 
 // auth
 //   ? console.log("Usuario autenticado")
@@ -11,4 +11,4 @@ const tarjeta = true;
 
 saldo > pagar || tarjeta
     ? console.log("Puedes pagar")
-    : console.log("No puedes pagar");
+    : console.log("No puedes pagar")

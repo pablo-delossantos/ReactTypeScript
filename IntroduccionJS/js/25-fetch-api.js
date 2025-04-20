@@ -1,12 +1,12 @@
 // Fecht API con Promises
-const url = "https://jsonplaceholder.typicode.com/comments";
+const url = "https://jsonplaceholder.typicode.com/comments"
 
 fetch(url)
-    .then((response) => {
+    .then(response => {
         if (response.ok) {
-            return response.json();
+            return response.json()
         }
-        throw new Error("Hubo un error...");
+        throw new Error("Hubo un error...")
     })
-    .then((data) => console.log(data))
-    .catch((error) => console.log(error.message));
+    .then(data => console.log(data))
+    .catch(error => console.log(error.message))
