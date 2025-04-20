@@ -1,12 +1,12 @@
 const tecnologias = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React.js",
-  "Node.js",
-  "Nest.js",
-  "TypeScript"
-]
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Nest.js",
+    "TypeScript",
+];
 
 // for (let i = 0; i < tecnologias.length; i++) {
 //   console.log(tecnologias[i])
@@ -20,10 +20,10 @@ const tecnologias = [
 // map: crea un NUEVO ARREGLO en base a las condiciones de la función
 
 const arrayMap = tecnologias.map(function (tech) {
-  return tech
-})
+    return tech;
+});
 
-console.log(arrayMap)
+console.log(arrayMap);
 
 // for ... of
 

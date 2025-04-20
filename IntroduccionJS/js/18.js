@@ -1,13 +1,13 @@
 // Condicionales
-const disponible = 200
-const retirar = 200
+const disponible = 200;
+const retirar = 200;
 
 if (disponible >= retirar) {
-  // Se cumple la condicion
-  console.log("Si, puedes retirar")
+    // Se cumple la condicion
+    console.log("Si, puedes retirar");
 } else {
-  // No se cumple la condicion
-  console.log("Saldo insuficiente")
+    // No se cumple la condicion
+    console.log("Saldo insuficiente");
 }
 
 /**
