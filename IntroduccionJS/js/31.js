@@ -1,4 +1,4 @@
-// Eventos de l DOM - Inputs
+// Eventos del DOM - Inputs
 
 const inputNombre = document.querySelector("#nombre")
 inputNombre.addEventListener("input", e => {
