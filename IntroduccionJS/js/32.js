@@ -7,12 +7,33 @@ formulario.addEventListener("submit", e => {
     const nombre = document.querySelector("#nombre").value
     const password = document.querySelector("#password").value
 
-    console.log(nombre)
-    console.log(password)
+    // Prevenir nuevas alertas
+    const alertaPrevia = document.querySelector(".alerta")
+    alertaPrevia?.remove()
+
+    const alerta = document.createElement("DIV")
+
+    alerta.classList.add(
+        "alerta",
+        "text-white",
+        "uppercase",
+        "text-sm",
+        "text-center",
+        "p-2",
+        "font-black"
+    )
 
     if (nombre === "" || password === "") {
-        console.log("Todos los campos son obligatorios...")
+        alerta.textContent = "Todos los campos son obligatorios..."
+        alerta.classList.add("bg-red-500")
     } else {
-        console.log("Todo bien, iniciando sesión...")
+        alerta.textContent = "Todo bien, iniciando sesión..."
+        alerta.classList.add("bg-green-500")
     }
+
+    formulario.appendChild(alerta)
+
+    setTimeout(() => {
+        alerta.remove()
+    }, 3000)
 })
